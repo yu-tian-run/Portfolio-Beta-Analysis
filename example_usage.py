@@ -14,11 +14,10 @@ def example_portfolio_analysis():
     print("Portfolio Beta Calculator - Example Analysis")
     print("=" * 50)
     
-    # Initialize the calculator
+    # IInitialize the Calcualtor
     calculator = PortfolioBetaCalculator()
     
     # Fetch S&P 500 benchmark data
-    print("Fetching S&P 500 benchmark data...")
     calculator.fetch_benchmark_data(period="2y")
     
     # Define a sample portfolio
